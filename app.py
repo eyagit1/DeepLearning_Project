@@ -14,8 +14,8 @@ import gdown
 import os
 
 MODEL_FILES = {
-    "models/colon_cancer_vit_final.pth": "https://drive.google.com/file/d/1MYumugVfVmvyWc453TJ4z-3sUHMIfTry/view?usp=sharing",
-    "models/lung_cancer_vit_final.pth":  "https://drive.google.com/file/d/12RAqhwTuRAgiiOJn3gBwP7CH7TRX4gQb/view?usp=sharing",
+    "models/colon_cancer_vit_final.pth": "1MYumugVfVmvyWc453TJ4z-3sUHMIfTry",
+    "models/lung_cancer_vit_final.pth":  "12RAqhwTuRAgiiOJn3gBwP7CH7TRX4gQb",
 }
 
 os.makedirs("models", exist_ok=True)
